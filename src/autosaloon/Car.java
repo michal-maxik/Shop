@@ -1,39 +1,46 @@
 package autosaloon;
 
 public class Car {
-  private Condition stavAuta;
-  private String barva;
-  private int najeto;
-  private int rokVyroby;
-  public Car( Condition stav, String barva, int najeto, int rokVyroby) {
-      this.stavAuta = stav;
-      this.barva = barva;
-      this.najeto = najeto;
-      this.rokVyroby = rokVyroby;
-  }
-     public Condition getStavAuta() {
-      return stavAuta;
-     }
+    private int yearOfManufacture;
+    private int kms;
+    private String color;
+    private Condition condition;
 
-    public int getRokVyroby() {
-        return rokVyroby;
+    // Parametrický konstruktor
+    public Car(int yearOfManufacture, int mileage, String color, Condition condition) {
+        this.yearOfManufacture = yearOfManufacture;
+        this.kms = mileage;
+        this.color = color;
+        this.condition = condition;
     }
 
-    public int getNajeto() {
-        return najeto;
+    public Condition getCondition() {
+        return condition;
     }
 
-    public String getBarva() {
-        return barva;
+    public int getKms() {
+        return kms;
     }
-    public void printInfo(){
-      System.out.println("Stav Auta: " + stavAuta);
-        System.out.println("");
-      System.out.println("Barva: " + barva);
-        System.out.println("");
-      System.out.println("Najeto: " + najeto);
-        System.out.println("");
-      System.out.println("Rok Vyroby: " + rokVyroby);
-      System.out.println("");
+
+    public void setKms(int kms) {
+        this.kms = kms;
     }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    // Metoda pro výpis informací o autě
+    public void printInfo() {
+        System.out.println("Car Information:");
+        System.out.println("Year of Manufacture: " + yearOfManufacture);
+        System.out.println("Mileage: " + kms  + " km");
+        System.out.println("Color: " + color);
+        System.out.println("Condition: " + condition);
+    }
+
 }

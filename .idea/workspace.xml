@@ -5,36 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de50d69-5ae7-4f68-832c-bfc963d9d695" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/elektroshop/Spotreba.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/autosaloon/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/autosaloon/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/autosaloon/CarDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/autosaloon/CarDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/autosaloon/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/autosaloon/Condition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elektroshop/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elektroshop/Fridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elektroshop/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elektroshop/Items.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "michal-maxik"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;michal-maxik&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/michal-maxik/Shop.git",
-    "accountId": "4b24c57a-9b7a-454d-bf5b-cb56dd7c8f5d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/michal-maxik/Shop.git&quot;,
+    &quot;accountId&quot;: &quot;4b24c57a-9b7a-454d-bf5b-cb56dd7c8f5d&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2tRlUJUlXxyq2ZBlR5G8vC4331L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -84,6 +94,8 @@
       <option name="presentableId" value="Default" />
       <updated>1740464650745</updated>
       <workItem from="1740464652004" duration="4018000" />
+      <workItem from="1740998484520" duration="22000" />
+      <workItem from="1740998517675" duration="4825000" />
     </task>
     <servers />
   </component>

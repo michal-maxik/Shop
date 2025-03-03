@@ -47,7 +47,10 @@ public class Items {
      */
     public void printInfo(){
         System.out.println("-----INFO O LEDNICKACH-----");
-        //sem dopln kod
+        System.out.println("Manufacture year of the fridge: ");
+        System.out.println("Fridge brand :");
+        System.out.println("Fridge model :");
+        System.out.println("Energy waste of the fridge :");
         System.out.println("-----");
     }
 }

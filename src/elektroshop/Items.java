@@ -82,17 +82,46 @@ public class Items {
     }
 
     public void Zajimavosti() {
-        System.out.print("----------Interests of Fridges-----------");
-        System.out.print("\n");
-        pocet();
-        System.out.println("Energy waste: A  very low");
-        System.out.println("Energy waste: B  low");
-        System.out.println("Energy waste: C  normal");
-        System.out.println("Energy waste: D  above normal");
-        System.out.println("Energy waste: E  high");
-        System.out.println("Energy waste: F  very high");
-        System.out.println("Energy waste: G  extremely high");
-        System.out.print("-----------------------------------------");
+        System.out.println("----------Interests of Fridges-----------");
+
+
+        int countA = 0, countB = 0, countC = 0, countD = 0, countE = 0, countF = 0, countG = 0;
+
+        for (Fridge fridge : items) {
+            switch (fridge.getSpotreba()) {
+                case A:
+                    countA++;
+                    break;
+                case B:
+                    countB++;
+                    break;
+                case C:
+                    countC++;
+                    break;
+                case D:
+                    countD++;
+                    break;
+                case E:
+                    countE++;
+                    break;
+                case F:
+                    countF++;
+                    break;
+                case G:
+                    countG++;
+                    break;
+            }
+        }
+        System.out.println("Number of all Fridges"+"\n");
+       pocet();
+        System.out.println("A: " + countA);
+        System.out.println("B: " + countB);
+        System.out.println("C: " + countC);
+        System.out.println("D: " + countD);
+        System.out.println("E: " + countE);
+        System.out.println("F: " + countF);
+        System.out.println("G: " + countG);
+        System.out.println("-----------------------------------------");
     }
 
 

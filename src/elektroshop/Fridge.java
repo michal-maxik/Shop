@@ -54,30 +54,27 @@ public class Fridge {
         System.out.println("Brand of the fridge: " +  znacka);
         System.out.println("Model of fridge: " + model );
         if (Spotreba.A == spotreba) {
-            System.out.println("Energy waste: " + spotreba + " very low");
+            System.out.println(+ rokvyroby+" : " + spotreba + "  - very low");
         }
         else if (Spotreba.B == spotreba) {
-            System.out.println("Energy waste: " + spotreba + " low");
+            System.out.println(+ rokvyroby+" : " + spotreba + "  - low");
         }
         else if (Spotreba.C == spotreba) {
-            System.out.println("Energy waste: " + spotreba + " normal");
+            System.out.println(+ rokvyroby+" : " + spotreba + "  - normal");
         }
         else if (Spotreba.D == spotreba) {
-            if (rokvyroby == 2015) {
-                System.out.println("Energy waste 2015: " + spotreba + " above normal");
-            }
-            else{
-                System.out.println("Energy waste : " + spotreba + " above normal");
-            }
+
+                System.out.println(+ rokvyroby+" : " + spotreba + "  - above normal");
+
         }
         else if (Spotreba.E == spotreba) {
-            System.out.println("Energy waste: " + spotreba + " high");
+            System.out.println(+ rokvyroby+"  : " + spotreba + "  - high");
         }
         else if (Spotreba.F == spotreba) {
-            System.out.println("Energy waste: " + spotreba + " very high");
+            System.out.println(+ rokvyroby+" : " + spotreba + " - very high");
         }
         else if (Spotreba.G == spotreba) {
-            System.out.println("Energy waste: " + spotreba + " extremely high");
+            System.out.println(+ rokvyroby+" : " + spotreba + " - extremely high");
         }
     }
 }

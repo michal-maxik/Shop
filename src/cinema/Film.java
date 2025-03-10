@@ -33,7 +33,6 @@ public class Film {
             System.out.println("Birth city: ");
             String city = scanner.nextLine();
             System.out.println("Gender(MALE,FEMALE): ");
-            scanner.nextLine();
             String conditionString = scanner.nextLine().toUpperCase();
             Gender gender = Gender.valueOf(conditionString);
             //nacti od uzivatele jmeno, rodne mesto a pohlavi herce

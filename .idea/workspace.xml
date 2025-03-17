@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de50d69-5ae7-4f68-832c-bfc963d9d695" name="Changes" comment="hotobo">
-      <change afterPath="$PROJECT_DIR$/src/cinema/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/library/Magazin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cinema/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cinema/Film.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cinema/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cinema/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/IItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/IItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +32,12 @@
     &quot;assignee&quot;: &quot;michal-maxik&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/michal-maxik/Shop.git",
-    "accountId": "b718f39d-1bcc-4023-8f65-697cfff02ff9"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/michal-maxik/Shop.git&quot;,
+    &quot;accountId&quot;: &quot;b718f39d-1bcc-4023-8f65-697cfff02ff9&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
